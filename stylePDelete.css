@@ -10,7 +10,7 @@ body{
 
 /*BARRA DE NAVEGAÇÃO*/
 #nav-bar{ 
-    display: flex;
+    display: grid;
     justify-content: flex-end;
     align-items: center;
     padding: 25px;
@@ -19,7 +19,7 @@ body{
     position: static;
     color: #fff;
     font-size: 1.2em;
-    border: 1px solid red;  
+    border: 1px solid red;
 }
 
 ul{
@@ -38,12 +38,18 @@ ul li a{
     color: #fff;
 }
 
+nav h2{
+    font-size: 1.3em;
+    text-align: right;
+    margin-right: 380px;
+}
+
 a:hover{
     color: #fff;
     transition: 0.5s ease;
     text-shadow: 0 0 5px cyan,
-    0 0 10px cyan, 0 0 20px cyan,
-    0 0 40px cyan, 0 0 80px cyan;
+    0 0 15px cyan, 0 0 30px cyan,
+    0 0 60px cyan, 0 0 120px cyan;
 }
 
 link a:visited{
@@ -123,24 +129,3 @@ link a:visited{
     text-decoration: none;
 }
 
-/*MINHAS SKILLS*/
-
-#skills{
-    margin: 75px;
-    height: 80vh;
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*MEUS PROJETOS*/
-
-#projetos{
-    margin: 75px;
-    height: 80vh;
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
