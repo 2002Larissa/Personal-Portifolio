@@ -31,7 +31,7 @@ body{
 section{
     min-width: 100vh;
     height: 50vw;
-    padding: 1 0rem 9% 2rem;
+    padding: 10rem 9% 2rem; /*DELETEI O PADDING 1PX INICIAL. FICOU MUITO MELHOR*/
 }
 
 /*NAV-BAR*/
@@ -154,7 +154,7 @@ span{
     box-shadow: none;
     font-size: 1.6rem;
     color: var(--bg-color);
-    letter-spacing: 1rem;
+    letter-spacing: 0.5rem;
     font-weight: 600;
     transition: .7s ease;
 }
@@ -174,7 +174,7 @@ span{
 }
 
 .about-img img{
-    width: 35vw;
+    width: 30vw;
 }
 
 .heading{
@@ -197,3 +197,44 @@ span{
 }
 
 /*SEÇÃO DE SERVIÇOS | POSTERIORMENTE SERÁ SUBSTITUIDA POR SKILLS*/
+
+.services h2{
+    margin-bottom: 5rem;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: var(--sdn-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.services-box i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-box h3{
+    font-size: 2.6rem;
+}
+
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
