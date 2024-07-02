@@ -31,7 +31,7 @@ body{
 section{
     min-width: 100vh;
     height: 50vw;
-    padding: 1rem 9% 2rem; /*DELETEI O PADDING 1PX INICIAL. FICOU MUITO MELHOR*/
+    padding: 10rem 9% 2rem; /*DELETEI O PADDING 1PX INICIAL. FICOU MUITO MELHOR*/
 }
 
 /*NAV-BAR*/
@@ -399,7 +399,7 @@ span{
 }
 
 /*BREAKPOINT*/
-
+/*
 @media (max-width: 1200px){
     html{
         font-size: 55%;
@@ -503,4 +503,5 @@ span{
     .contact form .input-box{
         width: 100%;
     }
-}
+}*/
+
