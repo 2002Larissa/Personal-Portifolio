@@ -91,7 +91,7 @@ section{
 }
 
 .home-content h3:nth-last-of-type(2){
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 span{
@@ -399,7 +399,7 @@ span{
 }
 
 /*BREAKPOINT*/
-/*
+
 @media (max-width: 1200px){
     html{
         font-size: 55%;
@@ -435,6 +435,28 @@ span{
 @media (max-width: 768px){
     #menu-icon{
         display: block;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar.active{
+        display: block;
+    }
+
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
     }
 
     .home{
@@ -503,5 +525,5 @@ span{
     .contact form .input-box{
         width: 100%;
     }
-}*/
+}
 
