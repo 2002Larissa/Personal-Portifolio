@@ -463,6 +463,10 @@ span{
         flex-direction: column;
     }
 
+    .home-content h3, h1, p{
+        flex-direction: column-reverse; 
+    }
+
     .home-content h3{
         font-size: 2.6rem;
     }
@@ -526,4 +530,19 @@ span{
         width: 100%;
     }
 }
+
+/*
+@media (max-width: 1020px){
+    .navbar{
+        display: none;
+    }
+
+    .home-content h3, h1, p{
+        flex-direction: column;
+    }
+
+    .header{
+        flex-direction: column-reverse;
+    }
+}NADA DE RELEVANTE*/
 
